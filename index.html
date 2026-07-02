@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Beauty</title>
+    <style>
+        .image-nav {
+            background-image: url('./image/samydybi.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 500px;
+            border-bottom-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+            gap: 20px;
+        }
+
+        .image-nav a {
+            color: rgb(17, 17, 17);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            float: right;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        .p1 {
+            margin-top: 50px;
+            font-size: x-large;
+            font-weight: 700;
+            color: rgb(5, 5, 5);
+            margin-left: 20px;
+        }
+
+        .button1 {
+            margin-left: 30px;
+            border-radius: 7px;
+            background-color: #92eca6;
+            color: rgb(7, 7, 7);
+        }
+
+        .h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: x-large;
+        }
+
+        .h1-1 {
+            text-align: center;
+        }
+
+        
+
+        .p2 {
+            text-align: center;
+            font-size: larger;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: #c6c2c2;
+            text-align: center;
+            font-size: x-large;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: opx;
+        }
+
+        .footer p {
+            margin-top: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 15px;
+            
+
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px rgba(250, 249, 249, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1rem;
+        }
+
+        .btn {
+            background-color: #92eca6;
+            color: rgb(12, 12, 12);
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 5px 15px;
+            text-decoration: none;
+        }
+        .col-md-4{
+            margin-top: 20px;  
+        }
+        .cart-img{
+            border-radius: 15px;
+        }
+        .link{
+            margin-top: 15px;
+        }
+        a:hover{
+            background-color: #140e6c;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image-nav">
+        <div class="image-nav">
+            <div class="row ">
+                <div class="col-6 ">
+                </div>
+                <div class="col-6 link">
+                   <a style="color: white;" href="./services.html">Services</a>
+                   <a style="color: white;" href="./about.html">About</a>
+                    <a style="color: white;" href="./index.html">Home</a>
+                     </div>
+            </div>
+            <p class="p1">Best Quality Beauty Products</p>
+            <button class="button1"> SHOP NOW</button>
+        </div>
+        
+        <div>
+           
+        </div>
+    </div>
+
+    
+    <div>
+        <p style="text-align: center; font-size: 250%;
+        color: #333;
+        margin-top: 50px;" class="Beauty_Product_Collection">Beauty Product Collection</p> 
+    </div>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./image/25.jpg"  class="cart-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Foundation</h5>
+                        <p class="card-text">Used to create an even skin tone and smooth base on the face.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./image/22.jpeg " class="cart-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Lipstick</h5>
+                        <p class="card-text">Used to color and protect the lips.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="image/images (3).jpg" class="cart-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Nail polish</h5>
+                        <p class="card-text">Nail polish is a cosmetic product used to add color and shine to fingernails.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                </div>
+                 <div class="col-md-4">
+                <div class="card">
+                    <img src="image/Web-pack-Oily-Skin-Care-Bundle-600x600.webp" class="cart-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Skin cream</h5>
+                        <p class="card-text">Bilesmalepaya Face Cream, Bilesmalepa Face Cleanser for Oily Skin, Eve Care Night Cream</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./image/images.jpg"  class="cart-img" >
+                    <div class="card-body">
+                        <h5 class="card-title">Hair oil</h5>
+                        <p class="card-text"> Used to nourish the scalp, strengthen hair, and promote healthy growth.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/71Hzp6zuJ2L.jpg" class="cart-img">
+                    <div class="card-body">
+                        <h5 class="card-title">mekeup kit</h5>
+                        <p class="card-text"></p>All-in-one Makeup Set Gift Surprise, Full Makeup Kit for Women Cosmetic Essential Starter Bundle Include Eyeshadow Palette Lipstick Concealer Face Powder Lipgloss Brush.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/images (4).jpg"  class="cart-img" >
+                    <div class="card-body">
+                        <h5 class="card-title">Hand & Body Lotion</h5>
+                        <p class="card-text"> Hand and body lotion is used to moisturize and soften the skin.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./image/23.avif" class="cart-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfume</h5>
+                        <p class="card-text"></p>Scented liquid used to give the body a pleasant fragrance.</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>@ Radiant Beauty product</p>
+    </footer>
+
+</body>
+
+</html>
